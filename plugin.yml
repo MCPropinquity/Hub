@@ -1,0 +1,14 @@
+name: Hub
+main: me.BOBNOTBUILDING.Hub.spawnleave
+author: BOBNOTBUILDING
+version: 1.0
+commands:
+  hreload:
+    description: Reloads the plugin's configuration.
+permissions:
+    hub.bypass:
+      description: Allows you to bypass the hub.
+      default: false
+    hub.reload:
+      description: Allows you to reload the configuration.
+      default: op
